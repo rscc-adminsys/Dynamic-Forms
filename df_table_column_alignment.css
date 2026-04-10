@@ -1,5 +1,5 @@
 table.align-right td {
-    background: yellow !important;
+    background: red !important;
     text-align: left !important;
 }
 
@@ -7,4 +7,4 @@ table.align-right tr > td:nth-child(2) {
     padding-left: 10px !important;
 }
 
-// Keeping yellow background as a sanity check.
+// Rotating background color as a sanity check.
