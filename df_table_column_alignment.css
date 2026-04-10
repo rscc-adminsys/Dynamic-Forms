@@ -1,11 +1,5 @@
-table.borderSpacingNone.align-right {
-    border-collapse: separate !important;
-    border-spacing: 5px 0 !important;
-}
-
-table.borderSpacingNone.align-right td,
-table.borderSpacingNone.align-right th,
-table.borderSpacingNone.align-right td *,
-table.borderSpacingNone.align-right th * {
+table.align-right td {
     text-align: left !important;
+    padding-right: 5px !important;
+    padding-left: 0 !important;
 }
