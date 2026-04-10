@@ -1,12 +1,11 @@
-table {
+table.borderSpacingNone.align-right {
     border-collapse: separate !important;
     border-spacing: 5px 0 !important;
 }
 
-table th,
-table td,
-table th *,
-table td * {
+table.borderSpacingNone.align-right td,
+table.borderSpacingNone.align-right th,
+table.borderSpacingNone.align-right td *,
+table.borderSpacingNone.align-right th * {
     text-align: left !important;
-    padding-left: 5px !important;
 }
