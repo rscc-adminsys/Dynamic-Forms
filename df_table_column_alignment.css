@@ -1,14 +1,14 @@
-table tr > td:first-child {
-    background: green !important;
+table td:nth-child(odd) {
+    background: yellow !important;
     white-space: nowrap !important;
     width: 1% !important;
     max-width: 1% !important;
     padding-right: 8px !important;
 }
 
-table tr > td:not(:first-child) {
-    background: pink !important;
+table td:nth-child(even) {
+    background: blue !important;
     width: auto !important;
 }
 
-// Rotating background color as a sanity check.
+/* Rotating background color as a sanity check. */
