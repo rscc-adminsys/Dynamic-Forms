@@ -1,5 +1,5 @@
 table td:nth-child(odd) {
-    background: yellow !important;
+   /* background: yellow !important; */
     white-space: nowrap !important;
     width: 1% !important;
     max-width: 1% !important;
@@ -7,7 +7,7 @@ table td:nth-child(odd) {
 }
 
 table td:nth-child(even) {
-    background: blue !important;
+   ?* background: blue !important; */
     width: auto !important;
 }
 
