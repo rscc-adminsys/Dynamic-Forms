@@ -1,4 +1,6 @@
-table td:not(:first-child) *,
-table th:not(:first-child) * {
+table td,
+table th,
+table td *,
+table th * {
     text-align: left !important;
 }
