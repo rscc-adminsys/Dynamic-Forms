@@ -3,3 +3,7 @@ table.align-right td {
     padding-right: 5px !important;
     padding-left: 0 !important;
 }
+
+table.align-right .inputcontainer {
+    margin-left: 5px !important;
+}
