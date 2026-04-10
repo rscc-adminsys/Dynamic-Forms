@@ -1,8 +1,12 @@
-table,
-table *,
-th,
-td,
-tr {
-    background: #ffffcc !important;
+table {
+    border-collapse: separate !important;
+    border-spacing: 5px 0 !important;
+}
+
+table th,
+table td,
+table th *,
+table td * {
     text-align: left !important;
+    padding-left: 5px !important;
 }
