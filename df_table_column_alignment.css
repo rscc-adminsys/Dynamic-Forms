@@ -1,10 +1,21 @@
-table.align-right td {
-    background: red !important;
+table.align-right {
+    table-layout: auto !important;
+    width: auto !important;
+}
+
+table.align-right tr > td {
+    background: yellow !important;
     text-align: left !important;
 }
 
+table.align-right tr > td:first-child {
+    width: 1% !important;
+    white-space: nowrap !important;
+    padding-right: 8px !important;
+}
+
 table.align-right tr > td:nth-child(2) {
-    padding-left: 10px !important;
+    width: auto !important;
 }
 
 // Rotating background color as a sanity check.
