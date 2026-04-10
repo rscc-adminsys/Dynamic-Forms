@@ -1,4 +1,8 @@
 table,
-table * {
-    background: yellow !important;
+table *,
+th,
+td,
+tr {
+    background: #ffffcc !important;
+    text-align: left !important;
 }
