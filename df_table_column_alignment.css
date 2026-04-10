@@ -1,20 +1,13 @@
-table.align-right {
-    table-layout: auto !important;
-    width: auto !important;
-}
-
-table.align-right tr > td {
-    background: yellow !important;
-    text-align: left !important;
-}
-
-table.align-right tr > td:first-child {
-    width: 1% !important;
+table tr > td:first-child {
+    background: green !important;
     white-space: nowrap !important;
+    width: 1% !important;
+    max-width: 1% !important;
     padding-right: 8px !important;
 }
 
-table.align-right tr > td:nth-child(2) {
+table tr > td:not(:first-child) {
+    background: pink !important;
     width: auto !important;
 }
 
